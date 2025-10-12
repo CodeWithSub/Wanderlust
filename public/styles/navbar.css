@@ -1,0 +1,29 @@
+.navbar {
+  background-color: white;
+}
+
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important
+}
+
+.search-btn {
+  background-color: #fe424d !important;
+  color: #fff !important;
+  border-radius: 25px !important;
+  padding: 0 1rem 0 1rem !important;
+}
+
+.search-btn i {
+  display: inline;
+  margin-right: 0.2rem;
+}
+
+.search-input {
+  border-radius: 25px !important;
+  padding: 0.5rem 1rem !important;
+}

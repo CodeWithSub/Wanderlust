@@ -1,0 +1,34 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.container {
+  padding-top: 10px;
+  flex: 1;
+}
+
+.add-btn,
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+.show-img {
+  height: 20vh;
+}
+
+/* .edit{
+  display: inline-block;
+  margin-bottom: 2px;
+} */
+
+#map {
+  height: 180px;
+}
