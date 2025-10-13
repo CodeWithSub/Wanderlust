@@ -47,7 +47,7 @@ Wanderlust is a full-stack web application designed to help users discover and b
 - **Frontend**: EJS (Embedded JavaScript) for templating, HTML, CSS, JavaScript
 - **Authentication**: Passport.js
 - **Cloud Storage**: Cloudinary for image uploads
-- **Mapping**: Mapbox GL JS
+- **Mapping**: Leaflet, OpenStreetMap
 - **Session Management**: `express-session` with `connect-mongo` for session storage
 - **Environment Variables**: `dotenv`
 
