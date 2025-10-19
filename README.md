@@ -4,12 +4,15 @@
 
 Wanderlust is a full-stack web application designed to help users discover and book unique accommodations around the world. It features a comprehensive listing system, user authentication, reviews, and an interactive map to showcase property locations.
 
+[Visit my project](https://wanderlust-fb47.onrender.com/listings)
+
+
 ## Features
 
 - **User Authentication**: Secure user registration, login, and logout functionalities using Passport.js.
 - **Listing Management**: Users can create, view, edit, and delete their own accommodation listings.
 - **Review System**: Users can leave ratings and comments on listings.
-- **Interactive Map**: Listings are displayed on an interactive map powered by Mapbox.
+- **Interactive Map**: Listings are displayed on an interactive map powered by Leaflet.
 - **Image Uploads**: Cloudinary integration for secure and efficient image storage.
 - **Future Enhancements**: Planned features include advanced search, filtering options, and more.
 - **Flash Messages**: User-friendly notifications for successful operations and errors.
@@ -73,9 +76,8 @@ To get Wanderlust up and running on your local machine, follow these steps:
     CLOUD_NAME=<YOUR_CLOUDINARY_CLOUD_NAME>
     CLOUD_API_KEY=<YOUR_CLOUDINARY_API_KEY>
     CLOUD_API_SECRET=<YOUR_CLOUDINARY_API_SECRET>
-    MAPBOX_TOKEN=<YOUR_MAPBOX_ACCESS_TOKEN>
     ```
-    *Replace the placeholder values with your actual credentials from MongoDB Atlas, Cloudinary, and Mapbox.*
+    *Replace the placeholder values with your actual credentials from MongoDB Atlas and Cloudinary.*
 
 4.  **Initialize the database (optional):**
     To populate your database with sample data, run the initialization script:
